@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5162165900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify that user should Login and Logout successfully",
+        "description": "",
+        "id": "user-accounts-test-cases;verify-that-user-should-login-and-logout-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 809790100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80893400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "TopmenuSteps.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100067900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on My Account link",
+            "match": {
+              "location": "MyAccountsSteps.iClickOnMyAccountLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486140600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I can call the method selectMyAccountOptions method with the parameter \"Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 72
+                }
+              ],
+              "location": "MyAccountsSteps.iCanCallTheMethodSelectMyAccountOptionsMethodWithTheParameter(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 768374500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter Email address and and I enter Password and I click on Login button",
+            "match": {
+              "location": "MyAccountsSteps.iEnterEmailAddressAndAndIEnterPasswordAndIClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59822400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I can see the text “My Account”",
+            "match": {
+              "location": "MyAccountsSteps.iCanSeeTheTextMyAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41424500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on the My Account Link.",
+            "match": {
+              "location": "MyAccountsSteps.iClickOnTheMyAccountLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 846343800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I call the method “selectMyAccountOptions” method and pass the parameter “Logout”",
+            "match": {
+              "location": "MyAccountsSteps.iCallTheMethodSelectMyAccountOptionsMethodAndPassTheParameterLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44408300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I can see text “Account Logout”",
+            "match": {
+              "location": "MyAccountsSteps.iCanSeeTextAccountLogout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 373043100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on Continue button",
+            "match": {
+              "location": "MyAccountsSteps.iClickOnContinueButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "User Accounts test cases",
+    "description": "",
+    "id": "user-accounts-test-cases",
+    "keyword": "Feature",
+    "uri": "MyAccounts.feature"
+  }
+]
